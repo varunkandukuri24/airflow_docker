@@ -426,3 +426,17 @@
 [2023-10-13T01:26:33.067+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:26:33.067+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-13T01:26:33.081+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:26:33.081+0000] {dag.py:3696} INFO - Setting next_dagrun for our_first_dag_v3 to 2023-10-10T00:00:00+00:00, run_after=2023-10-11T00:00:00+00:00
 [2023-10-13T01:26:33.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.119 seconds
+[2023-10-13T01:27:03.508+0000] {processor.py:157} INFO - Started process (PID=1493) to work on /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:03.509+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2023-10-13T01:27:03.511+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:03.510+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:03.543+0000] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v3']) retrieved from /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:03.571+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:03.571+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-13T01:27:03.585+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:03.585+0000] {dag.py:3696} INFO - Setting next_dagrun for our_first_dag_v3 to 2023-10-10T00:00:00+00:00, run_after=2023-10-11T00:00:00+00:00
+[2023-10-13T01:27:03.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.104 seconds
+[2023-10-13T01:27:33.954+0000] {processor.py:157} INFO - Started process (PID=1510) to work on /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:33.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2023-10-13T01:27:33.962+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:33.957+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:34.001+0000] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v3']) retrieved from /opt/airflow/dags/our_first_dag.py
+[2023-10-13T01:27:34.032+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:34.031+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-13T01:27:34.046+0000] {logging_mixin.py:151} INFO - [2023-10-13T01:27:34.046+0000] {dag.py:3696} INFO - Setting next_dagrun for our_first_dag_v3 to 2023-10-10T00:00:00+00:00, run_after=2023-10-11T00:00:00+00:00
+[2023-10-13T01:27:34.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.116 seconds
