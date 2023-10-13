@@ -1,0 +1,13 @@
+[2023-10-13T01:40:37.078+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_w_taskflow_api_v1.get_age scheduled__2023-09-30T00:00:00+00:00 [queued]>
+[2023-10-13T01:40:37.195+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_w_taskflow_api_v1.get_age scheduled__2023-09-30T00:00:00+00:00 [queued]>
+[2023-10-13T01:40:37.205+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 3
+[2023-10-13T01:40:37.307+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 2023-09-30 00:00:00+00:00
+[2023-10-13T01:40:37.386+0000] {standard_task_runner.py:57} INFO - Started process 231 to run task
+[2023-10-13T01:40:37.438+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dag_w_taskflow_api_v1', 'get_age', 'scheduled__2023-09-30T00:00:00+00:00', '--job-id', '776', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_taskflow_api.py', '--cfg-path', '/tmp/tmpn413ocd3']
+[2023-10-13T01:40:37.576+0000] {standard_task_runner.py:85} INFO - Job 776: Subtask get_age
+[2023-10-13T01:40:39.062+0000] {task_command.py:415} INFO - Running <TaskInstance: dag_w_taskflow_api_v1.get_age scheduled__2023-09-30T00:00:00+00:00 [running]> on host 679b8b93a6d2
+[2023-10-13T01:40:40.326+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='varun' AIRFLOW_CTX_DAG_ID='dag_w_taskflow_api_v1' AIRFLOW_CTX_TASK_ID='get_age' AIRFLOW_CTX_EXECUTION_DATE='2023-09-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-09-30T00:00:00+00:00'
+[2023-10-13T01:40:40.338+0000] {python.py:194} INFO - Done. Returned value was: 26
+[2023-10-13T01:40:40.525+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dag_w_taskflow_api_v1, task_id=get_age, execution_date=20230930T000000, start_date=20231013T014037, end_date=20231013T014040
+[2023-10-13T01:40:40.643+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-13T01:40:40.938+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
